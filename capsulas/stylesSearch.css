@@ -1,0 +1,163 @@
+article.containerOfSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    padding: 3em 0 0 0;
+}
+
+article.containerOfSearch header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article.containerOfSearch header div.search-box{
+    gap: .5em;
+    display: flex;
+    padding: 3em 0 0 0;
+}
+
+article.containerOfSearch header div.search-box input {
+    height: 3em;
+    width: 30em;
+    background-color: rgb(77, 77, 77);
+    border: none;
+    border-radius: 3em;
+    padding: .6em;
+    color: #fff;
+}
+
+article.containerOfSearch header div.search-box button{
+    border-radius: 1.2em;
+    padding: .5em 1.2em;
+    background-color: rgb(61, 206, 61);
+    color: white;
+    border: none;
+}
+
+article.containerOfSearch div#botonesTipos{
+    display: flex;
+    padding: 1em .5em;
+    justify-content: space-around;
+}
+
+article.containerOfSearch div#botonesTipos button{
+    background-color: rgb(139, 134, 134);
+    border-radius: 1em;
+    padding: .5em;
+    color: #fff;
+    border: none;
+}
+
+article.containerOfSearch section.fromSpotify{
+    display: flex;
+    flex-direction: column;
+}
+
+article.containerOfSearch section.fromSpotify div.containerElements{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 3em 0 0 0;
+}
+
+
+article.containerOfSearch section.fromSpotify div.containerElements article.element {
+    background-color: var(--color6);
+    padding: 1em 1em 1.5em 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    gap: 1em;
+    transition: all .2s ease-in-out;
+  }
+  
+  article.containerOfSearch section.fromSpotify div.containerElements article.element .img img{
+    height: 8em;
+    width: 8em;
+  }
+ 
+  article.containerOfSearch section.fromSpotify h2.text-result {
+    margin-left: 10px; 
+  }
+  article.containerOfSearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    width: 90%;
+    top: 0;
+    margin: 0 auto;
+
+  }
+  
+  article.containerOfSearch header div.search-box input {
+    width: 30em;
+  }
+  
+  article.containerOfSearch section.fromSpotify div.containerElements article.element {
+    width: max-content;
+  }
+
+  @media only screen and (max-width: 600px) {
+    article.containerOfSearch header div.search-box {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    article.containerOfSearch header div.search-box input {
+      width: calc(100% - 0px); 
+      padding: 10px; 
+      font-size: 16px; 
+    }
+  
+    article.containerOfSearch div#botonesTipos {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    article.containerOfSearch div#botonesTipos button {
+      margin-bottom: 5px; 
+    }
+  
+    article.containerOfSearch section.fromSpotify div.containerElements {
+      padding: 1em 0 0 0; 
+    }
+  
+    article.containerOfSearch section.fromSpotify div.containerElements article.element {
+      width: 100%; 
+    }
+  }
+  article.containerOfSearch section.fromSpotify div.containerElements article.element .text h3.nombre {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  
+  article.containerOfSearch section.fromSpotify div.containerElements article.element .img img {
+    height: 8em;
+    width: 8em;
+    object-fit: cover; 
+  }
+  article.containerOfSearch section.fromSpotify div.containerElements article.element .text h3.nombre {
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+article.containerOfSearch section.fromSpotify div.containerElements article.element .text h3.nombre {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+}
